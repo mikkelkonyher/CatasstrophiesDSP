@@ -83,6 +83,22 @@ export const Download: React.FC = () => {
                         DOWNLOAD BIRMA v1.0.13 (MAC)
                     </GlitchButton>
                 </a>
+
+                {/* Gatekeeper Notice */}
+                <div className="mt-8 border border-neon-dim/30 rounded-sm p-6 bg-neon/5">
+                    <h3 className="text-neon text-xs uppercase tracking-widest mb-3 font-mono">Installation Note</h3>
+                    <p className="text-gray-300 text-sm leading-relaxed mb-3">
+                        This plugin is not yet notarized with Apple. macOS may show a security warning when you first open the installer. To allow it:
+                    </p>
+                    <ol className="text-gray-300 text-sm leading-relaxed space-y-2 font-mono list-decimal list-inside">
+                        <li>Open <span className="text-neon">System Settings</span> &rarr; <span className="text-neon">Privacy &amp; Security</span></li>
+                        <li>Scroll down to the Security section</li>
+                        <li>Click <span className="text-neon">"Open Anyway"</span> next to the blocked installer message</li>
+                    </ol>
+                    <p className="text-neon-dim text-xs mt-3">
+                        You only need to do this once. After installation the plugin will work normally.
+                    </p>
+                </div>
             </div>
         </section>
     );

@@ -3,6 +3,7 @@ import { AppLayout } from './components/layout/AppLayout';
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { ProductShowcase } from './sections/ProductShowcase';
+import { About } from './sections/About';
 import { Download } from './pages/Download';
 
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<ProductShowcase />} />
           <Route path="/download" element={<Download />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
 
