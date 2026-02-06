@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { GlitchButton } from '../components/ui/GlitchButton';
 import BirmaCard from '../assets/Birmaneon.png';
 
@@ -39,11 +40,11 @@ export const ProductShowcase: React.FC = () => {
                         </ul>
                     </div>
 
-                    <div id="download">
+                    <Link to="/download">
                         <GlitchButton className="w-full md:w-auto">
                             DOWNLOAD FREE INSTALLER (MAC)
                         </GlitchButton>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </section>
