@@ -31,7 +31,7 @@ export const Download: React.FC = () => {
                         <div>
                             <h3 className="text-neon text-xs uppercase tracking-widest border-b border-neon-dim/30 pb-1 mb-4">Installer Package</h3>
                             <div className="font-mono text-sm text-gray-300 space-y-2">
-                                <p>&gt; <span className="text-neon">Birma_v1.0.13_macOS.pkg</span></p>
+                                                <p>&gt; <span className="text-neon">Birma v1.0.13 Installer.pkg</span></p>
                                 <p className="text-neon-dim text-xs">Includes AU and VST3 plugin formats</p>
                             </div>
                         </div>
@@ -78,9 +78,11 @@ export const Download: React.FC = () => {
                 </div>
 
                 {/* Download Button */}
-                <GlitchButton className="w-full">
-                    DOWNLOAD BIRMA v1.0.13 (MAC)
-                </GlitchButton>
+                <a href="/Birma v1.0.13 Installer.pkg" download>
+                    <GlitchButton className="w-full">
+                        DOWNLOAD BIRMA v1.0.13 (MAC)
+                    </GlitchButton>
+                </a>
             </div>
         </section>
     );
