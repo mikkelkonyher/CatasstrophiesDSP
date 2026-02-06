@@ -1,11 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
+@theme {
   --color-neon: #00ff88;
   --color-neon-dim: #00b36a;
   --color-bg: #081018;
+  --font-mono: "JetBrains Mono", "Inconsolata", monospace;
+  --font-sans: "Inter", sans-serif;
+  --animate-spin-slow: spin 3s linear infinite;
 }
 
 html {

@@ -13,10 +13,11 @@ export const Header: React.FC = () => {
                  </h1>
             </div>
             
-            <div className="flex items-center gap-6 text-xs text-neon-dim font-mono hidden md:flex">
-                <span>SYSTEM: ONLINE</span>
-                <span>v2.0.45-RC</span>
-            </div>
+            <nav className="hidden md:flex items-center gap-8 text-sm font-mono">
+                <a href="#plugins" className="text-neon-dim hover:text-neon transition-colors tracking-widest">PLUG-INS</a>
+                <a href="#download" className="text-neon-dim hover:text-neon transition-colors tracking-widest">DOWNLOAD</a>
+                <a href="#about" className="text-neon-dim hover:text-neon transition-colors tracking-widest">ABOUT</a>
+            </nav>
         </header>
     );
 };
