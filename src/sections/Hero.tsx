@@ -10,12 +10,12 @@ export const Hero: React.FC = () => {
                 </div>
                 
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-2">
-                    <span className="text-neon neon-glow">AUDIO TOOLS</span><br />
-                    FOR THE FUTURE
+                    <span className="text-neon neon-glow">PURRFECT</span><br />
+                    COMPRESSION
                 </h1>
-                
+
                 <p className="text-neon-dim md:text-xl max-w-2xl mx-auto leading-relaxed font-light">
-                    Precision dynamic processing for the modern producer.
+                    Nine lives of headroom. Zero clipping. All claws.
                 </p>
 
                 <div className="flex gap-6 justify-center mt-8">
