@@ -28,7 +28,7 @@ export const ProductShowcase: React.FC = () => {
 
                     <div className="space-y-4 text-gray-300 font-light text-sm leading-relaxed mb-8">
                         <p>
-                            Birma is not just a compressor. She's an optical dynamics predator built around a T4-cell envelope follower with multi-stage release and program-dependent ratio. Set the Prowl threshold to stalk your signal and dial in Purr for full-spectrum warmth through the Silk Engine v2.2's 8x oversampled saturation with rich odd and even harmonics. Use Claw to blend parallel compression, then adjust Stalk to make up what she took. Every move calculated. Every transient accounted for.
+                            Born from the hunting instincts of Mysa, a Birman house cat with a confirmed kill count. Birma is not just a compressor. She's an optical dynamics predator built around a T4-cell envelope follower with multi-stage release and program-dependent ratio. Set the Prowl threshold to stalk your signal and dial in Purr for full-spectrum warmth and grit through the Silk Engine v2.2's 8x oversampled saturation. Use Claw to blend parallel compression, then adjust Stalk to make up what she took. Every move calculated. Every transient accounted for.
                         </p>
                         <h3 className="text-neon text-xs uppercase tracking-widest mt-4 border-b border-neon-dim/30 pb-1">Specifications</h3>
                         <ul className="space-y-1 font-mono text-xs text-neon-dim">
@@ -41,7 +41,7 @@ export const ProductShowcase: React.FC = () => {
 
                     <div id="download">
                         <GlitchButton className="w-full md:w-auto">
-                            DOWNLOAD INSTALLER (MAC)
+                            DOWNLOAD FREE INSTALLER (MAC)
                         </GlitchButton>
                     </div>
                 </div>
