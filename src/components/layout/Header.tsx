@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
                 <nav className="md:hidden border-t border-neon-dim/30 bg-bg/95 backdrop-blur-sm px-6 py-4 flex flex-col gap-4 text-sm font-mono">
                     <Link to="/" onClick={() => setMenuOpen(false)} className="text-neon-dim hover:text-neon transition-colors tracking-widest">PLUG-INS</Link>
                     <Link to="/download" onClick={() => setMenuOpen(false)} className="text-neon-dim hover:text-neon transition-colors tracking-widest">DOWNLOAD</Link>
-                    <a href="#about" onClick={() => setMenuOpen(false)} className="text-neon-dim hover:text-neon transition-colors tracking-widest">ABOUT</a>
+                    <Link to="/about" onClick={() => setMenuOpen(false)} className="text-neon-dim hover:text-neon transition-colors tracking-widest">ABOUT</Link>
                 </nav>
             )}
         </header>
