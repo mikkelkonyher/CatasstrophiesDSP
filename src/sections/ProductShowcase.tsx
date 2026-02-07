@@ -21,7 +21,7 @@ export const ProductShowcase: React.FC = () => {
                 <div className="flex flex-col">
                     <div className="mb-6">
                         <div className="inline-block px-3 py-1 border border-neon-dim rounded-full text-neon-dim text-xs tracking-[0.3em] bg-neon/5 mb-3">
-                            BIRMA v1.0.13
+                            BIRMA v1.0.14
                         </div>
                         <h2 className="text-3xl font-bold text-neon mb-2">BIRMA</h2>
                         <div className="text-neon-dim text-sm tracking-widest font-mono">OPTO_DYNAMICS_PROCESSOR</div>

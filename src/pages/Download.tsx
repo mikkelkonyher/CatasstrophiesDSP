@@ -19,7 +19,7 @@ export const Download: React.FC = () => {
                     <div className="inline-block px-3 py-1 border border-neon-dim rounded-full text-neon-dim text-xs tracking-[0.3em] bg-neon/5 mb-3">
                         FREE DOWNLOAD
                     </div>
-                    <h2 className="text-3xl font-bold text-neon mb-2">BIRMA v1.0.13</h2>
+                    <h2 className="text-3xl font-bold text-neon mb-2">BIRMA v1.0.14</h2>
                     <div className="text-neon-dim text-sm tracking-widest font-mono">OPTO_DYNAMICS_PROCESSOR</div>
                 </div>
 
@@ -31,7 +31,7 @@ export const Download: React.FC = () => {
                         <div>
                             <h3 className="text-neon text-xs uppercase tracking-widest border-b border-neon-dim/30 pb-1 mb-4">Installer Package</h3>
                             <div className="font-mono text-sm text-gray-300 space-y-2">
-                                                <p>&gt; <span className="text-neon">Birma v1.0.13 Installer.pkg</span></p>
+                                                <p>&gt; <span className="text-neon">Birma v1.0.14 Installer.pkg</span></p>
                                 <p className="text-neon-dim text-xs">Includes AU and VST3 plugin formats</p>
                             </div>
                         </div>
@@ -78,9 +78,9 @@ export const Download: React.FC = () => {
                 </div>
 
                 {/* Download Button */}
-                <a href="/Birma v1.0.13 Installer.pkg" download>
+                <a href="/Birma v1.0.14 Installer.pkg" download>
                     <GlitchButton className="w-full">
-                        DOWNLOAD BIRMA v1.0.13 (MAC)
+                        DOWNLOAD BIRMA v1.0.14 (MAC)
                     </GlitchButton>
                 </a>
 
