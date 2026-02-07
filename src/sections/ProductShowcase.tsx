@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { GlitchButton } from '../components/ui/GlitchButton';
-import BirmaCard from '../assets/Birmaneon.png';
+import BirmaCard from '../assets/BirmaV14.png';
 
 export const ProductShowcase: React.FC = () => {
     return (
